@@ -1,4 +1,4 @@
-# PharmaPrecise — Pharmaceutical Company Website
+# Drn Visiting Site — Drn Company Website
 
 A modern, fully responsive visiting website built for a professional 
 pharmaceutical brand. Designed to showcase the company's product catalog, 
