@@ -14,8 +14,8 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "PharmaPrecise",
-  description: "Precision-engineered pharmaceutical solutions for modern clinical care.",
+  title: "Dr.N",
+  description: "Dr.N is a leading pharmaceutical company based in Chennai. We specialize in the manufacturing and distribution of high-quality pharmaceutical products.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
