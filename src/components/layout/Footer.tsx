@@ -45,17 +45,17 @@ export function Footer({ variant = "newsletter" }: FooterProps) {
   return (
     <footer className="mt-16 border-t border-border bg-white">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
-          <div>
-            <h3 className="text-2xl font-extrabold tracking-tight text-text-primary">{COMPANY_NAME}</h3>
-            <p className="mt-4 text-sm leading-6 text-text-secondary">{FOOTER_CONTENT.tagline}</p>
-            <div className="mt-5 flex items-center gap-2">
+        <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="text-center sm:text-left">
+            <h3 className="text-2xl font-extrabold tracking-tight text-primary">{COMPANY_NAME}</h3>
+            <p className="mt-4 text-sm leading-relaxed text-text-secondary">{FOOTER_CONTENT.tagline}</p>
+            <div className="mt-6 flex items-center justify-center gap-3 sm:justify-start">
               {SOCIAL_LINKS.map((social) => {
                 const Icon = ICONS[social.label as keyof typeof ICONS];
                 return (
-                  <Button key={social.label} asChild size="icon" variant="outline" className="size-9">
+                  <Button key={social.label} asChild size="icon" variant="outline" className="size-10 rounded-full border-slate-200 transition-all hover:border-primary hover:text-primary">
                     <a href={social.href} target="_blank" rel="noreferrer" aria-label={social.label}>
-                      <Icon className="size-4" />
+                      <Icon className="size-5" />
                     </a>
                   </Button>
                 );
@@ -64,16 +64,16 @@ export function Footer({ variant = "newsletter" }: FooterProps) {
           </div>
           <FooterColumn title={secondTitle} links={secondLinks} />
           <FooterColumn title={thirdTitle} links={thirdLinks} />
-          <div>
+          <div className="text-center sm:text-left">
             <h4 className="text-base font-semibold text-text-primary">
               {isCertifications ? FOOTER_CONTENT.certificationsTitle : FOOTER_CONTENT.newsletterTitle}
             </h4>
             {isCertifications ? (
-              <div className="mt-4 flex flex-wrap gap-2">
+              <div className="mt-4 flex flex-wrap justify-center gap-3 sm:justify-start">
                 {FOOTER_CONTENT.certifications.map((item) => (
                   <span
                     key={item}
-                    className="rounded-md border border-border bg-primary-light px-3 py-2 text-xs font-semibold text-primary"
+                    className="rounded-full border border-slate-200 bg-slate-50 px-4 py-1.5 text-[10px] font-bold tracking-widest uppercase text-slate-600 transition-all hover:border-primary hover:bg-primary-light hover:text-primary"
                   >
                     {item}
                   </span>
@@ -81,8 +81,8 @@ export function Footer({ variant = "newsletter" }: FooterProps) {
               </div>
             ) : (
               <form className="mt-4 space-y-3">
-                <Input placeholder={FOOTER_CONTENT.newsletterPlaceholder} type="email" />
-                <Button className="w-full bg-primary text-white hover:bg-primary-dark">
+                <Input placeholder={FOOTER_CONTENT.newsletterPlaceholder} type="email" className="border-slate-200 focus-visible:ring-primary" />
+                <Button className="w-full bg-primary font-bold text-white shadow-md shadow-primary/20 hover:bg-primary-dark">
                   {FOOTER_CONTENT.newsletterButton}
                 </Button>
               </form>

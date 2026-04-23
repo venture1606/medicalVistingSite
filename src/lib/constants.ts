@@ -109,7 +109,7 @@ export const FOOTER_CONTENT = {
     "Leading the global shift towards precision-based pharmaceutical treatments and healthcare reliability.",
   newsletterTitle: "Newsletter",
   newsletterPlaceholder: "Email Address",
-  newsletterButton: "Subscribe",
+  newsletterButton: "Submit for updates",
   certificationsTitle: "Certifications",
   certifications: ["GMP", "ISO", "FDA"],
   copyright: "© 2024 PharmaPrecise. Clinical Excellence & Precision.",

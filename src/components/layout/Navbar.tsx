@@ -58,25 +58,31 @@ export function Navbar() {
             >
               <Menu className="size-5" />
             </SheetTrigger>
-            <SheetContent side="right" className="w-72">
-              <SheetHeader>
-                <SheetTitle>{COMPANY_NAME}</SheetTitle>
+            <SheetContent side="right" className="w-80 p-0">
+              <SheetHeader className="border-b border-border py-6 text-center">
+                <SheetTitle className="text-xl font-bold tracking-tight text-primary">
+                  {COMPANY_NAME}
+                </SheetTitle>
               </SheetHeader>
-              <div className="mt-8 space-y-4">
-                {NAV_LINKS.map((link) => (
-                  <Link
-                    key={link.label}
-                    href={link.href}
-                    className="block text-base font-medium text-text-primary"
-                  >
-                    {link.label}
-                  </Link>
-                ))}
-                <Button asChild className="mt-2 w-full bg-whatsapp text-white hover:bg-whatsapp/90">
-                  <a href={WHATSAPP_BASE_URL} target="_blank" rel="noreferrer">
-                    <MessageCircle className="size-4" /> {UI_LABELS.chatOnWhatsApp}
-                  </a>
-                </Button>
+              <div className="flex flex-col items-center px-6">
+                <div className="w-full">
+                  {NAV_LINKS.map((link) => (
+                    <Link
+                      key={link.label}
+                      href={link.href}
+                      className="block w-full rounded-lg py-2 text-center text-lg font-semibold text-text-primary transition-colors hover:bg-slate-50 hover:text-primary active:bg-slate-100"
+                    >
+                      {link.label}
+                    </Link>
+                  ))}
+                </div>
+                <div className="mt-10 w-full pt-6 border-t border-border">
+                  <Button asChild className="h-14 w-full bg-whatsapp text-lg font-bold text-white shadow-lg shadow-whatsapp/20 hover:bg-whatsapp/90">
+                    <a href={WHATSAPP_BASE_URL} target="_blank" rel="noreferrer" className="flex items-center justify-center gap-2">
+                      <MessageCircle className="size-6" /> {UI_LABELS.chatOnWhatsApp}
+                    </a>
+                  </Button>
+                </div>
               </div>
             </SheetContent>
           </Sheet>
