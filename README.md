@@ -36,7 +36,7 @@ thin pages, reusable components, all data in lib/data/.
 
 ## 📦 Getting Started
 
-git clone https://github.com/yourusername/pharmaprecise-web
+git clone https://github.com/venture1606/medicalVistingSite.git
 cd pharmaprecise-web
 npm install
 npm run dev
