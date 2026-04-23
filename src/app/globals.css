@@ -1,27 +1,41 @@
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f7f9fc;
+  --foreground: #1a1a2e;
+  --card: #ffffff;
+  --card-foreground: #1a1a2e;
+  --popover: #ffffff;
+  --popover-foreground: #1a1a2e;
+  --primary: #1a5fa8;
+  --primary-foreground: #ffffff;
+  --primary-dark: #0d3d6e;
+  --primary-light: #e8f1fb;
+  --secondary: #eef4fb;
+  --secondary-foreground: #0d3d6e;
+  --muted: #eef3f8;
+  --muted-foreground: #4a5568;
+  --accent: #2a80d2;
+  --accent-foreground: #ffffff;
+  --destructive: #c62828;
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a5568;
+  --border: #d1e3f8;
+  --input: #d1e3f8;
+  --ring: #2a80d2;
+  --radius: 0.75rem;
+  --whatsapp: #25d366;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  * {
+    @apply border-border;
   }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  body {
+    @apply bg-background font-sans text-foreground;
   }
 }
