@@ -1,9 +1,4 @@
-import {
-  Tabs,
-  TabsContent,
-  TabsList,
-  TabsTrigger,
-} from "@/components/ui/tabs";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { PRODUCT_DETAIL_CONTENT } from "@/lib/constants";
 import type { CompositionRow } from "@/lib/types";
 
@@ -13,54 +8,85 @@ interface ProductTabsProps {
   storageHandling: string;
 }
 
-export function ProductTabs({ composition, clinicalTrials, storageHandling }: ProductTabsProps) {
+export function ProductTabs({
+  composition,
+  clinicalTrials,
+  storageHandling,
+}: ProductTabsProps) {
   return (
-    <Tabs defaultValue="composition" className="mt-10">
-      <TabsList className="h-auto w-full justify-start rounded-none border-b border-border bg-transparent p-0">
-        <TabsTrigger value="composition" className="rounded-none border-b-2 border-transparent data-[state=active]:border-primary">
+    <Tabs defaultValue="composition" className="mt-12">
+      <TabsList className="h-auto w-full justify-start gap-8 rounded-none border-b border-slate-200 bg-transparent p-0">
+        <TabsTrigger
+          value="composition"
+          className="relative h-11 rounded-none border-b-2 border-transparent bg-transparent px-2 pb-3 pt-2 text-base font-medium text-slate-500 transition-none hover:text-slate-700 data-[state=active]:border-primary data-[state=active]:text-primary data-[state=active]:shadow-none"
+        >
           {PRODUCT_DETAIL_CONTENT.compositionTab}
         </TabsTrigger>
-        <TabsTrigger value="trials" className="rounded-none border-b-2 border-transparent data-[state=active]:border-primary">
+        <TabsTrigger
+          value="trials"
+          className="relative h-11 rounded-none border-b-2 border-transparent bg-transparent px-2 pb-3 pt-2 text-base font-medium text-slate-500 transition-none hover:text-slate-700 data-[state=active]:border-primary data-[state=active]:text-primary data-[state=active]:shadow-none"
+        >
           {PRODUCT_DETAIL_CONTENT.trialsTab}
         </TabsTrigger>
-        <TabsTrigger value="storage" className="rounded-none border-b-2 border-transparent data-[state=active]:border-primary">
+        <TabsTrigger
+          value="storage"
+          className="relative h-11 rounded-none border-b-2 border-transparent bg-transparent px-2 pb-3 pt-2 text-base font-medium text-slate-500 transition-none hover:text-slate-700 data-[state=active]:border-primary data-[state=active]:text-primary data-[state=active]:shadow-none"
+        >
           {PRODUCT_DETAIL_CONTENT.storageTab}
         </TabsTrigger>
       </TabsList>
-      <TabsContent value="composition" className="rounded-lg border border-border bg-white p-6">
+      <TabsContent
+        value="composition"
+        className="mt-6 rounded-md border border-slate-200 bg-white p-8 shadow-sm"
+      >
         <div className="overflow-x-auto">
-          <table className="w-full border-collapse text-left text-base">
+          <table className="w-full border-collapse text-base">
             <thead>
-              <tr className="border-b border-border text-text-primary">
-                <th className="pb-3 font-semibold">
+              <tr className="border-b border-slate-100 text-slate-900">
+                <th className="pb-4 text-left font-bold">
                   {PRODUCT_DETAIL_CONTENT.ingredientHeader}
                 </th>
-                <th className="pb-3 font-semibold">
+                <th className="pb-4 text-right font-bold">
                   {PRODUCT_DETAIL_CONTENT.quantityHeader}
                 </th>
-                <th className="pb-3 font-semibold">
+                <th className="pb-4 text-right font-bold">
                   {PRODUCT_DETAIL_CONTENT.dvHeader}
                 </th>
               </tr>
             </thead>
-            <tbody>
+            <tbody className="divide-y divide-slate-100">
               {composition.map((row) => (
-                <tr key={row.ingredient} className="border-b border-border text-text-secondary last:border-b-0">
-                  <td className="py-4">{row.ingredient}</td>
-                  <td className="py-4">{row.quantity}</td>
-                  <td className="py-4">{row.dv}</td>
+                <tr
+                  key={row.ingredient}
+                  className="text-slate-600 transition-colors hover:bg-slate-50/50"
+                >
+                  <td className="py-5 text-left">{row.ingredient}</td>
+                  <td className="py-5 text-right tabular-nums">{row.quantity}</td>
+                  <td className="py-5 text-right tabular-nums">{row.dv}</td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
-        <p className="mt-4 text-base italic text-text-secondary">{PRODUCT_DETAIL_CONTENT.dvFootnote}</p>
+        <p className="mt-6 text-sm italic text-slate-400">
+          {PRODUCT_DETAIL_CONTENT.dvFootnote}
+        </p>
       </TabsContent>
-      <TabsContent value="trials" className="rounded-lg border border-border bg-white p-6 text-text-secondary">
-        {clinicalTrials}
+      <TabsContent
+        value="trials"
+        className="mt-6 rounded-md border border-slate-200 bg-white p-8 text-slate-600 shadow-sm"
+      >
+        <div className="leading-relaxed">
+          {clinicalTrials}
+        </div>
       </TabsContent>
-      <TabsContent value="storage" className="rounded-lg border border-border bg-white p-6 text-text-secondary">
-        {storageHandling}
+      <TabsContent
+        value="storage"
+        className="mt-6 rounded-md border border-slate-200 bg-white p-8 text-slate-600 shadow-sm"
+      >
+        <div className="leading-relaxed">
+          {storageHandling}
+        </div>
       </TabsContent>
     </Tabs>
   );

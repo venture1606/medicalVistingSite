@@ -5,8 +5,8 @@ import type {
   WhyChooseItem,
 } from "@/lib/types";
 
-export const COMPANY_NAME = "PharmaPrecise";
-export const WHATSAPP_NUMBER = "919876543210";
+export const COMPANY_NAME = "Dr. R";
+export const WHATSAPP_NUMBER = "919940252835";
 export const WHATSAPP_BASE_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
 
 export const NAV_LINKS: NavLink[] = [
