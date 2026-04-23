@@ -16,6 +16,8 @@ import {
 import type { FooterVariant } from "@/lib/types";
 
 import { FooterColumn } from "./FooterColumn";
+import { useSubmitEmail } from "@/hooks/useSubmitEmail";
+
 
 const ICONS = {
   Github: GitBranch,
@@ -41,6 +43,8 @@ export function Footer({ variant = "newsletter" }: FooterProps) {
     : FOOTER_TITLES.corporate;
   const secondLinks = isCertifications ? FOOTER_LINKS.navigation : FOOTER_LINKS.solutions;
   const thirdLinks = isCertifications ? FOOTER_LINKS.legal : FOOTER_LINKS.corporate;
+  const { email, setEmail, handleSubmit } = useSubmitEmail();
+
 
   return (
     <footer className="mt-16 border-t border-border bg-white">
@@ -80,9 +84,16 @@ export function Footer({ variant = "newsletter" }: FooterProps) {
                 ))}
               </div>
             ) : (
-              <form className="mt-4 space-y-3">
-                <Input placeholder={FOOTER_CONTENT.newsletterPlaceholder} type="email" className="border-slate-200 focus-visible:ring-primary" />
-                <Button className="w-full bg-primary font-bold text-white shadow-md shadow-primary/20 hover:bg-primary-dark">
+              <form className="mt-4 space-y-3" onSubmit={handleSubmit}>
+                <Input
+                  placeholder={FOOTER_CONTENT.newsletterPlaceholder}
+                  type="email"
+                  className="border-slate-200 focus-visible:ring-primary"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                />
+                <Button type="submit" className="w-full bg-primary font-bold text-white shadow-md shadow-primary/20 hover:bg-primary-dark">
                   {FOOTER_CONTENT.newsletterButton}
                 </Button>
               </form>
