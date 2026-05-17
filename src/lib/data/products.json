@@ -1,1 +1,498 @@
-[{"id":"1","slug":"cardiovax-50","name":"CardioVax 50mg","category":"Cardiology","badge":"Clinically Validated","formulaBadge":"Advanced Formula","shortDescription":"Pharmaceutical grade cardiovascular support with targeted CoQ10 blend.","fullDescription":"CardioVax 50mg is a precision-engineered cardiac support formulation designed to assist endothelial performance and lipid balance in monitored care pathways.","mrp":1850,"discountedPrice":1499,"imageUrl":"https://picsum.photos/seed/cardiovax-main/900/900","thumbnails":["https://picsum.photos/seed/cardiovax-1/300/300","https://picsum.photos/seed/cardiovax-2/300/300","https://picsum.photos/seed/cardiovax-3/300/300","https://picsum.photos/seed/cardiovax-4/300/300"],"featurePills":[{"icon":"Zap","label":"Rapid Absorption"},{"icon":"FlaskConical","label":"Clinically Tested"},{"icon":"ShieldCheck","label":"GMP Certified"},{"icon":"Leaf","label":"Non-GMO Source"}],"dosageProtocol":["Take 1 capsule twice daily with meals.","Maintain consistent intake at 12-hour intervals.","Consult with a healthcare provider for chronic conditions."],"composition":[{"ingredient":"Coenzyme Q10","quantity":"150 mg","dv":"250%"},{"ingredient":"Omega-3 EPA/DHA","quantity":"350 mg","dv":"†"},{"ingredient":"L-Carnitine Tartrate","quantity":"100 mg","dv":"15%"}],"clinicalTrials":"Randomized observational studies showed improved patient tolerance and consistent biomarker response under supervised dosage.","storageHandling":"Store below 25°C in a dry place. Protect from direct sunlight and keep away from moisture.","isFeatured":true},{"id":"2","slug":"neurozine-plus","name":"NeuroZine Plus","category":"Neurology","badge":"Clinically Validated","formulaBadge":"Advanced Formula","shortDescription":"Targeted neurotransmitter support with precision-release nootropic matrix.","fullDescription":"NeuroZine Plus supports neuronal signaling with evidence-guided micronutrient pairing intended for cognitive resilience and recovery pathways.","mrp":1690,"discountedPrice":1349,"imageUrl":"https://picsum.photos/seed/neurozine-main/900/900","thumbnails":["https://picsum.photos/seed/neurozine-1/300/300","https://picsum.photos/seed/neurozine-2/300/300","https://picsum.photos/seed/neurozine-3/300/300","https://picsum.photos/seed/neurozine-4/300/300"],"featurePills":[{"icon":"Zap","label":"Rapid Absorption"},{"icon":"FlaskConical","label":"Clinically Tested"},{"icon":"ShieldCheck","label":"GMP Certified"},{"icon":"Leaf","label":"Non-GMO Source"}],"dosageProtocol":["Take 1 tablet daily after breakfast.","Do not exceed recommended dosage without medical advice.","Use continuously for 8-12 weeks for protocol assessment."],"composition":[{"ingredient":"Citicoline","quantity":"250 mg","dv":"†"},{"ingredient":"Bacopa monnieri extract","quantity":"300 mg","dv":"†"},{"ingredient":"Vitamin B12","quantity":"2.4 mcg","dv":"100%"}],"clinicalTrials":"Pilot cognitive performance analyses demonstrated improved attention and reduced mental fatigue in supervised patient cohorts.","storageHandling":"Keep in airtight container below 30°C. Avoid humidity and contamination after opening.","isFeatured":true},{"id":"3","slug":"oncotarget-inject","name":"OncoTarget Inject","category":"Oncology","badge":"Clinically Validated","formulaBadge":"Advanced Formula","shortDescription":"Immunotherapeutic adjunct formulated for precision oncology programs.","fullDescription":"OncoTarget Inject is developed for institution-led oncology protocols where consistent delivery and controlled administration are essential.","mrp":3250,"discountedPrice":2799,"imageUrl":"https://picsum.photos/seed/oncotarget-main/900/900","thumbnails":["https://picsum.photos/seed/oncotarget-1/300/300","https://picsum.photos/seed/oncotarget-2/300/300","https://picsum.photos/seed/oncotarget-3/300/300","https://picsum.photos/seed/oncotarget-4/300/300"],"featurePills":[{"icon":"Zap","label":"Rapid Absorption"},{"icon":"FlaskConical","label":"Clinically Tested"},{"icon":"ShieldCheck","label":"GMP Certified"},{"icon":"Leaf","label":"Non-GMO Source"}],"dosageProtocol":["Administer only in supervised clinical settings.","Follow institutional dilution and infusion guidance.","Monitor patient tolerance throughout administration."],"composition":[{"ingredient":"Monoclonal peptide complex","quantity":"120 mg","dv":"†"},{"ingredient":"Stabilized carrier buffer","quantity":"5 ml","dv":"†"},{"ingredient":"Trace electrolyte matrix","quantity":"50 mg","dv":"†"}],"clinicalTrials":"Multicenter safety observations indicate strong protocol adherence and acceptable adverse event profile in controlled settings.","storageHandling":"Store refrigerated at 2-8°C. Do not freeze. Use immediately after reconstitution.","isFeatured":true},{"id":"4","slug":"pediarelief-drops","name":"PediaRelief Drops","category":"Pediatrics","badge":"Clinically Validated","formulaBadge":"Advanced Formula","shortDescription":"Child-friendly oral suspension for guided pediatric support protocols.","fullDescription":"PediaRelief Drops delivers precise pediatric dosing with palatable suspension technology for consistent adherence in young patients.","mrp":890,"discountedPrice":699,"imageUrl":"https://picsum.photos/seed/pediarelief-main/900/900","thumbnails":["https://picsum.photos/seed/pediarelief-1/300/300","https://picsum.photos/seed/pediarelief-2/300/300","https://picsum.photos/seed/pediarelief-3/300/300","https://picsum.photos/seed/pediarelief-4/300/300"],"featurePills":[{"icon":"Zap","label":"Rapid Absorption"},{"icon":"FlaskConical","label":"Clinically Tested"},{"icon":"ShieldCheck","label":"GMP Certified"},{"icon":"Leaf","label":"Non-GMO Source"}],"dosageProtocol":["Administer 5 ml once daily after food.","Shake bottle thoroughly before each use.","Use calibrated dropper for accurate dosing."],"composition":[{"ingredient":"Zinc gluconate","quantity":"10 mg","dv":"90%"},{"ingredient":"Vitamin C","quantity":"40 mg","dv":"80%"},{"ingredient":"L-Lysine","quantity":"50 mg","dv":"†"}],"clinicalTrials":"Pediatric observational data indicates favorable compliance and sustained micronutrient support outcomes.","storageHandling":"Store in cool dry place. Refrigerate after opening and consume within 30 days.","isFeatured":false},{"id":"5","slug":"dermacure-gel","name":"Dermacure Gel","category":"Dermatology","badge":"Clinically Validated","formulaBadge":"Advanced Formula","shortDescription":"Topical corticosteroid blend for precision dermatological care.","fullDescription":"Dermacure Gel is formulated to calm inflammation and support dermal restoration through clinically guided topical action.","mrp":1040,"discountedPrice":849,"imageUrl":"https://picsum.photos/seed/dermacure-main/900/900","thumbnails":["https://picsum.photos/seed/dermacure-1/300/300","https://picsum.photos/seed/dermacure-2/300/300","https://picsum.photos/seed/dermacure-3/300/300","https://picsum.photos/seed/dermacure-4/300/300"],"featurePills":[{"icon":"Zap","label":"Rapid Absorption"},{"icon":"FlaskConical","label":"Clinically Tested"},{"icon":"ShieldCheck","label":"GMP Certified"},{"icon":"Leaf","label":"Non-GMO Source"}],"dosageProtocol":["Apply a thin layer twice daily on affected skin.","Avoid contact with eyes and open wounds.","Discontinue if irritation persists and consult dermatologist."],"composition":[{"ingredient":"Hydrocortisone acetate","quantity":"1% w/w","dv":"†"},{"ingredient":"Aloe vera concentrate","quantity":"2% w/w","dv":"†"},{"ingredient":"Panthenol","quantity":"0.5% w/w","dv":"†"}],"clinicalTrials":"Clinical usage data supports reduced erythema and improved barrier comfort in supervised dermatology practice.","storageHandling":"Keep tube tightly closed below 30°C. Protect from direct heat and sunlight.","isFeatured":false},{"id":"6","slug":"glucostable-500","name":"GlucoStable 500","category":"Endocrinology","badge":"Clinically Validated","formulaBadge":"Advanced Formula","shortDescription":"Extended-release endocrine support for glucose management pathways.","fullDescription":"GlucoStable 500 is crafted for sustained-release metabolic support and physician-supervised endocrine care regimens.","mrp":1320,"discountedPrice":1120,"imageUrl":"https://picsum.photos/seed/glucostable-main/900/900","thumbnails":["https://picsum.photos/seed/glucostable-1/300/300","https://picsum.photos/seed/glucostable-2/300/300","https://picsum.photos/seed/glucostable-3/300/300","https://picsum.photos/seed/glucostable-4/300/300"],"featurePills":[{"icon":"Zap","label":"Rapid Absorption"},{"icon":"FlaskConical","label":"Clinically Tested"},{"icon":"ShieldCheck","label":"GMP Certified"},{"icon":"Leaf","label":"Non-GMO Source"}],"dosageProtocol":["Take one tablet after the evening meal.","Do not crush or split extended-release tablets.","Track fasting levels as advised by physician."],"composition":[{"ingredient":"Metformin hydrochloride","quantity":"500 mg","dv":"†"},{"ingredient":"Chromium picolinate","quantity":"200 mcg","dv":"571%"},{"ingredient":"Biotin","quantity":"30 mcg","dv":"100%"}],"clinicalTrials":"Comparative outcomes demonstrate reliable tolerability and stable release profile in monitored metabolic care groups.","storageHandling":"Store at room temperature in original strip. Keep away from children.","isFeatured":false},{"id":"7","slug":"breatheease-hfa","name":"BreatheEase HFA","category":"Respiratory","badge":"Clinically Validated","formulaBadge":"Advanced Formula","shortDescription":"Metered-dose inhaler designed for rapid bronchodilation response.","fullDescription":"BreatheEase HFA delivers controlled-dose pulmonary support using calibrated actuation for acute and maintenance respiratory protocols.","mrp":1790,"discountedPrice":1450,"imageUrl":"https://picsum.photos/seed/breatheease-main/900/900","thumbnails":["https://picsum.photos/seed/breatheease-1/300/300","https://picsum.photos/seed/breatheease-2/300/300","https://picsum.photos/seed/breatheease-3/300/300","https://picsum.photos/seed/breatheease-4/300/300"],"featurePills":[{"icon":"Zap","label":"Rapid Absorption"},{"icon":"FlaskConical","label":"Clinically Tested"},{"icon":"ShieldCheck","label":"GMP Certified"},{"icon":"Leaf","label":"Non-GMO Source"}],"dosageProtocol":["Shake inhaler before each actuation.","Use one puff as prescribed by pulmonologist.","Rinse mouth after corticosteroid combinations."],"composition":[{"ingredient":"Salbutamol sulfate","quantity":"100 mcg","dv":"†"},{"ingredient":"Beclomethasone dipropionate","quantity":"50 mcg","dv":"†"},{"ingredient":"HFA propellant","quantity":"q.s.","dv":"†"}],"clinicalTrials":"Use-case evaluations show prompt bronchodilation and acceptable patient adherence with spacer-assisted delivery.","storageHandling":"Store below 30°C away from direct flame. Do not puncture canister.","isFeatured":false},{"id":"8","slug":"infectastop-250","name":"InfectaStop 250","category":"General","badge":"Clinically Validated","formulaBadge":"Advanced Formula","shortDescription":"Broad-spectrum antimicrobial support for primary care protocols.","fullDescription":"InfectaStop 250 is developed for broad-spectrum intervention where consistent dosage reliability and safety monitoring are critical.","mrp":420,"discountedPrice":322,"imageUrl":"https://picsum.photos/seed/infectastop-main/900/900","thumbnails":["https://picsum.photos/seed/infectastop-1/300/300","https://picsum.photos/seed/infectastop-2/300/300","https://picsum.photos/seed/infectastop-3/300/300","https://picsum.photos/seed/infectastop-4/300/300"],"featurePills":[{"icon":"Zap","label":"Rapid Absorption"},{"icon":"FlaskConical","label":"Clinically Tested"},{"icon":"ShieldCheck","label":"GMP Certified"},{"icon":"Leaf","label":"Non-GMO Source"}],"dosageProtocol":["Take one tablet twice daily after meals.","Complete full prescribed course without interruption.","Avoid concurrent self-medication during treatment cycle."],"composition":[{"ingredient":"Azithromycin","quantity":"250 mg","dv":"†"},{"ingredient":"Probiotic blend","quantity":"50 mg","dv":"†"},{"ingredient":"Vitamin C","quantity":"25 mg","dv":"28%"}],"clinicalTrials":"Routine clinical observations indicate dependable spectrum coverage and favorable tolerability for outpatient programs.","storageHandling":"Store in cool dry environment below 25°C. Keep blister intact until use.","isFeatured":false}]
+[
+  {
+    "id": "1",
+    "slug": "cardiovax-50",
+    "name": "CardioVax 50mg",
+    "category": "Cardiology",
+    "badge": "Clinically Validated",
+    "formulaBadge": "Advanced Formula",
+    "shortDescription": "Pharmaceutical grade cardiovascular support with targeted CoQ10 blend.",
+    "fullDescription": "CardioVax 50mg is a precision-engineered cardiac support formulation designed to assist endothelial performance and lipid balance in monitored care pathways.",
+    "mrp": 1850,
+    "discountedPrice": 1499,
+    "imageUrl": "/assets/image1.jpeg",
+    "thumbnails": [
+      "/assets/image1.jpeg",
+      "/assets/image2.jpeg",
+      "/assets/image3.jpeg",
+      "/assets/image4.jpeg"
+    ],
+    "featurePills": [
+      {
+        "icon": "Zap",
+        "label": "Rapid Absorption"
+      },
+      {
+        "icon": "FlaskConical",
+        "label": "Clinically Tested"
+      },
+      {
+        "icon": "ShieldCheck",
+        "label": "GMP Certified"
+      },
+      {
+        "icon": "Leaf",
+        "label": "Non-GMO Source"
+      }
+    ],
+    "dosageProtocol": [
+      "Take 1 capsule twice daily with meals.",
+      "Maintain consistent intake at 12-hour intervals.",
+      "Consult with a healthcare provider for chronic conditions."
+    ],
+    "composition": [
+      {
+        "ingredient": "Coenzyme Q10",
+        "quantity": "150 mg",
+        "dv": "250%"
+      },
+      {
+        "ingredient": "Omega-3 EPA/DHA",
+        "quantity": "350 mg",
+        "dv": "†"
+      },
+      {
+        "ingredient": "L-Carnitine Tartrate",
+        "quantity": "100 mg",
+        "dv": "15%"
+      }
+    ],
+    "clinicalTrials": "Randomized observational studies showed improved patient tolerance and consistent biomarker response under supervised dosage.",
+    "storageHandling": "Store below 25°C in a dry place. Protect from direct sunlight and keep away from moisture.",
+    "isFeatured": true
+  },
+  {
+    "id": "2",
+    "slug": "neurozine-plus",
+    "name": "NeuroZine Plus",
+    "category": "Neurology",
+    "badge": "Clinically Validated",
+    "formulaBadge": "Advanced Formula",
+    "shortDescription": "Targeted neurotransmitter support with precision-release nootropic matrix.",
+    "fullDescription": "NeuroZine Plus supports neuronal signaling with evidence-guided micronutrient pairing intended for cognitive resilience and recovery pathways.",
+    "mrp": 1690,
+    "discountedPrice": 1349,
+    "imageUrl": "/assets/image4.jpeg",
+    "thumbnails": [
+      "/assets/image4.jpeg",
+      "/assets/image5.jpeg",
+      "/assets/image6.jpeg",
+      "/assets/image7.jpeg"
+    ],
+    "featurePills": [
+      {
+        "icon": "Zap",
+        "label": "Rapid Absorption"
+      },
+      {
+        "icon": "FlaskConical",
+        "label": "Clinically Tested"
+      },
+      {
+        "icon": "ShieldCheck",
+        "label": "GMP Certified"
+      },
+      {
+        "icon": "Leaf",
+        "label": "Non-GMO Source"
+      }
+    ],
+    "dosageProtocol": [
+      "Take 1 tablet daily after breakfast.",
+      "Do not exceed recommended dosage without medical advice.",
+      "Use continuously for 8-12 weeks for protocol assessment."
+    ],
+    "composition": [
+      {
+        "ingredient": "Citicoline",
+        "quantity": "250 mg",
+        "dv": "†"
+      },
+      {
+        "ingredient": "Bacopa monnieri extract",
+        "quantity": "300 mg",
+        "dv": "†"
+      },
+      {
+        "ingredient": "Vitamin B12",
+        "quantity": "2.4 mcg",
+        "dv": "100%"
+      }
+    ],
+    "clinicalTrials": "Pilot cognitive performance analyses demonstrated improved attention and reduced mental fatigue in supervised patient cohorts.",
+    "storageHandling": "Keep in airtight container below 30°C. Avoid humidity and contamination after opening.",
+    "isFeatured": true
+  },
+  {
+    "id": "3",
+    "slug": "oncotarget-inject",
+    "name": "OncoTarget Inject",
+    "category": "Oncology",
+    "badge": "Clinically Validated",
+    "formulaBadge": "Advanced Formula",
+    "shortDescription": "Immunotherapeutic adjunct formulated for precision oncology programs.",
+    "fullDescription": "OncoTarget Inject is developed for institution-led oncology protocols where consistent delivery and controlled administration are essential.",
+    "mrp": 3250,
+    "discountedPrice": 2799,
+    "imageUrl": "/assets/image7.jpeg",
+    "thumbnails": [
+      "/assets/image7.jpeg",
+      "/assets/image8.jpeg",
+      "/assets/image9.jpeg",
+      "/assets/image10.jpeg"
+    ],
+    "featurePills": [
+      {
+        "icon": "Zap",
+        "label": "Rapid Absorption"
+      },
+      {
+        "icon": "FlaskConical",
+        "label": "Clinically Tested"
+      },
+      {
+        "icon": "ShieldCheck",
+        "label": "GMP Certified"
+      },
+      {
+        "icon": "Leaf",
+        "label": "Non-GMO Source"
+      }
+    ],
+    "dosageProtocol": [
+      "Administer only in supervised clinical settings.",
+      "Follow institutional dilution and infusion guidance.",
+      "Monitor patient tolerance throughout administration."
+    ],
+    "composition": [
+      {
+        "ingredient": "Monoclonal peptide complex",
+        "quantity": "120 mg",
+        "dv": "†"
+      },
+      {
+        "ingredient": "Stabilized carrier buffer",
+        "quantity": "5 ml",
+        "dv": "†"
+      },
+      {
+        "ingredient": "Trace electrolyte matrix",
+        "quantity": "50 mg",
+        "dv": "†"
+      }
+    ],
+    "clinicalTrials": "Multicenter safety observations indicate strong protocol adherence and acceptable adverse event profile in controlled settings.",
+    "storageHandling": "Store refrigerated at 2-8°C. Do not freeze. Use immediately after reconstitution.",
+    "isFeatured": true
+  },
+  {
+    "id": "4",
+    "slug": "pediarelief-drops",
+    "name": "PediaRelief Drops",
+    "category": "Pediatrics",
+    "badge": "Clinically Validated",
+    "formulaBadge": "Advanced Formula",
+    "shortDescription": "Child-friendly oral suspension for guided pediatric support protocols.",
+    "fullDescription": "PediaRelief Drops delivers precise pediatric dosing with palatable suspension technology for consistent adherence in young patients.",
+    "mrp": 890,
+    "discountedPrice": 699,
+    "imageUrl": "/assets/image10.jpeg",
+    "thumbnails": [
+      "/assets/image10.jpeg",
+      "/assets/image11.jpeg",
+      "/assets/image12.jpeg",
+      "/assets/image13.jpeg"
+    ],
+    "featurePills": [
+      {
+        "icon": "Zap",
+        "label": "Rapid Absorption"
+      },
+      {
+        "icon": "FlaskConical",
+        "label": "Clinically Tested"
+      },
+      {
+        "icon": "ShieldCheck",
+        "label": "GMP Certified"
+      },
+      {
+        "icon": "Leaf",
+        "label": "Non-GMO Source"
+      }
+    ],
+    "dosageProtocol": [
+      "Administer 5 ml once daily after food.",
+      "Shake bottle thoroughly before each use.",
+      "Use calibrated dropper for accurate dosing."
+    ],
+    "composition": [
+      {
+        "ingredient": "Zinc gluconate",
+        "quantity": "10 mg",
+        "dv": "90%"
+      },
+      {
+        "ingredient": "Vitamin C",
+        "quantity": "40 mg",
+        "dv": "80%"
+      },
+      {
+        "ingredient": "L-Lysine",
+        "quantity": "50 mg",
+        "dv": "†"
+      }
+    ],
+    "clinicalTrials": "Pediatric observational data indicates favorable compliance and sustained micronutrient support outcomes.",
+    "storageHandling": "Store in cool dry place. Refrigerate after opening and consume within 30 days.",
+    "isFeatured": false
+  },
+  {
+    "id": "5",
+    "slug": "dermacure-gel",
+    "name": "Dermacure Gel",
+    "category": "Dermatology",
+    "badge": "Clinically Validated",
+    "formulaBadge": "Advanced Formula",
+    "shortDescription": "Topical corticosteroid blend for precision dermatological care.",
+    "fullDescription": "Dermacure Gel is formulated to calm inflammation and support dermal restoration through clinically guided topical action.",
+    "mrp": 1040,
+    "discountedPrice": 849,
+    "imageUrl": "/assets/image13.jpeg",
+    "thumbnails": [
+      "/assets/image13.jpeg",
+      "/assets/image14.jpeg",
+      "/assets/image15.jpeg",
+      "/assets/image16.jpeg"
+    ],
+    "featurePills": [
+      {
+        "icon": "Zap",
+        "label": "Rapid Absorption"
+      },
+      {
+        "icon": "FlaskConical",
+        "label": "Clinically Tested"
+      },
+      {
+        "icon": "ShieldCheck",
+        "label": "GMP Certified"
+      },
+      {
+        "icon": "Leaf",
+        "label": "Non-GMO Source"
+      }
+    ],
+    "dosageProtocol": [
+      "Apply a thin layer twice daily on affected skin.",
+      "Avoid contact with eyes and open wounds.",
+      "Discontinue if irritation persists and consult dermatologist."
+    ],
+    "composition": [
+      {
+        "ingredient": "Hydrocortisone acetate",
+        "quantity": "1% w/w",
+        "dv": "†"
+      },
+      {
+        "ingredient": "Aloe vera concentrate",
+        "quantity": "2% w/w",
+        "dv": "†"
+      },
+      {
+        "ingredient": "Panthenol",
+        "quantity": "0.5% w/w",
+        "dv": "†"
+      }
+    ],
+    "clinicalTrials": "Clinical usage data supports reduced erythema and improved barrier comfort in supervised dermatology practice.",
+    "storageHandling": "Keep tube tightly closed below 30°C. Protect from direct heat and sunlight.",
+    "isFeatured": false
+  },
+  {
+    "id": "6",
+    "slug": "glucostable-500",
+    "name": "GlucoStable 500",
+    "category": "Endocrinology",
+    "badge": "Clinically Validated",
+    "formulaBadge": "Advanced Formula",
+    "shortDescription": "Extended-release endocrine support for glucose management pathways.",
+    "fullDescription": "GlucoStable 500 is crafted for sustained-release metabolic support and physician-supervised endocrine care regimens.",
+    "mrp": 1320,
+    "discountedPrice": 1120,
+    "imageUrl": "/assets/image16.jpeg",
+    "thumbnails": [
+      "/assets/image16.jpeg",
+      "/assets/image17.jpeg",
+      "/assets/image18.jpeg",
+      "/assets/image19.jpeg"
+    ],
+    "featurePills": [
+      {
+        "icon": "Zap",
+        "label": "Rapid Absorption"
+      },
+      {
+        "icon": "FlaskConical",
+        "label": "Clinically Tested"
+      },
+      {
+        "icon": "ShieldCheck",
+        "label": "GMP Certified"
+      },
+      {
+        "icon": "Leaf",
+        "label": "Non-GMO Source"
+      }
+    ],
+    "dosageProtocol": [
+      "Take one tablet after the evening meal.",
+      "Do not crush or split extended-release tablets.",
+      "Track fasting levels as advised by physician."
+    ],
+    "composition": [
+      {
+        "ingredient": "Metformin hydrochloride",
+        "quantity": "500 mg",
+        "dv": "†"
+      },
+      {
+        "ingredient": "Chromium picolinate",
+        "quantity": "200 mcg",
+        "dv": "571%"
+      },
+      {
+        "ingredient": "Biotin",
+        "quantity": "30 mcg",
+        "dv": "100%"
+      }
+    ],
+    "clinicalTrials": "Comparative outcomes demonstrate reliable tolerability and stable release profile in monitored metabolic care groups.",
+    "storageHandling": "Store at room temperature in original strip. Keep away from children.",
+    "isFeatured": false
+  },
+  {
+    "id": "7",
+    "slug": "breatheease-hfa",
+    "name": "BreatheEase HFA",
+    "category": "Respiratory",
+    "badge": "Clinically Validated",
+    "formulaBadge": "Advanced Formula",
+    "shortDescription": "Metered-dose inhaler designed for rapid bronchodilation response.",
+    "fullDescription": "BreatheEase HFA delivers controlled-dose pulmonary support using calibrated actuation for acute and maintenance respiratory protocols.",
+    "mrp": 1790,
+    "discountedPrice": 1450,
+    "imageUrl": "/assets/image19.jpeg",
+    "thumbnails": [
+      "/assets/image19.jpeg",
+      "/assets/image20.jpeg",
+      "/assets/image21.jpeg",
+      "/assets/image1.jpeg"
+    ],
+    "featurePills": [
+      {
+        "icon": "Zap",
+        "label": "Rapid Absorption"
+      },
+      {
+        "icon": "FlaskConical",
+        "label": "Clinically Tested"
+      },
+      {
+        "icon": "ShieldCheck",
+        "label": "GMP Certified"
+      },
+      {
+        "icon": "Leaf",
+        "label": "Non-GMO Source"
+      }
+    ],
+    "dosageProtocol": [
+      "Shake inhaler before each actuation.",
+      "Use one puff as prescribed by pulmonologist.",
+      "Rinse mouth after corticosteroid combinations."
+    ],
+    "composition": [
+      {
+        "ingredient": "Salbutamol sulfate",
+        "quantity": "100 mcg",
+        "dv": "†"
+      },
+      {
+        "ingredient": "Beclomethasone dipropionate",
+        "quantity": "50 mcg",
+        "dv": "†"
+      },
+      {
+        "ingredient": "HFA propellant",
+        "quantity": "q.s.",
+        "dv": "†"
+      }
+    ],
+    "clinicalTrials": "Use-case evaluations show prompt bronchodilation and acceptable patient adherence with spacer-assisted delivery.",
+    "storageHandling": "Store below 30°C away from direct flame. Do not puncture canister.",
+    "isFeatured": false
+  },
+  {
+    "id": "8",
+    "slug": "infectastop-250",
+    "name": "InfectaStop 250",
+    "category": "General",
+    "badge": "Clinically Validated",
+    "formulaBadge": "Advanced Formula",
+    "shortDescription": "Broad-spectrum antimicrobial support for primary care protocols.",
+    "fullDescription": "InfectaStop 250 is developed for broad-spectrum intervention where consistent dosage reliability and safety monitoring are critical.",
+    "mrp": 420,
+    "discountedPrice": 322,
+    "imageUrl": "/assets/image1.jpeg",
+    "thumbnails": [
+      "/assets/image1.jpeg",
+      "/assets/image2.jpeg",
+      "/assets/image3.jpeg",
+      "/assets/image4.jpeg"
+    ],
+    "featurePills": [
+      {
+        "icon": "Zap",
+        "label": "Rapid Absorption"
+      },
+      {
+        "icon": "FlaskConical",
+        "label": "Clinically Tested"
+      },
+      {
+        "icon": "ShieldCheck",
+        "label": "GMP Certified"
+      },
+      {
+        "icon": "Leaf",
+        "label": "Non-GMO Source"
+      }
+    ],
+    "dosageProtocol": [
+      "Take one tablet twice daily after meals.",
+      "Complete full prescribed course without interruption.",
+      "Avoid concurrent self-medication during treatment cycle."
+    ],
+    "composition": [
+      {
+        "ingredient": "Azithromycin",
+        "quantity": "250 mg",
+        "dv": "†"
+      },
+      {
+        "ingredient": "Probiotic blend",
+        "quantity": "50 mg",
+        "dv": "†"
+      },
+      {
+        "ingredient": "Vitamin C",
+        "quantity": "25 mg",
+        "dv": "28%"
+      }
+    ],
+    "clinicalTrials": "Routine clinical observations indicate dependable spectrum coverage and favorable tolerability for outpatient programs.",
+    "storageHandling": "Store in cool dry environment below 25°C. Keep blister intact until use.",
+    "isFeatured": false
+  }
+]
